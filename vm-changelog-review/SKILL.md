@@ -1,5 +1,5 @@
 ---
-name: review-changelog
+name: vm-changelog-review
 description: Write or review VictoriaMetrics CHANGELOG entries (SECURITY, FEATURE, BUGFIX, Update Note). Use when the user asks to add or write a changelog entry, check or fix changelog lines, write a release note for a change, asks whether a change needs a changelog entry, or edits docs/**/CHANGELOG*.md.
 allowed-tools: Bash(git diff:*), Bash(git branch -r:*), Bash(git status:*), WebFetch
 ---
