@@ -2,7 +2,7 @@
 
 Claude Code skills used internally by the VictoriaMetrics team. Each top-level directory with a `SKILL.md` is one skill:
 
-- [`changelog`](changelog/SKILL.md): review changelog entries or write a new one (`docs/**/CHANGELOG*.md`).
+- [`review-changelog`](review-changelog/SKILL.md): review changelog entries or write a new one (`docs/**/CHANGELOG*.md`).
 
 ## Installation
 
@@ -25,11 +25,11 @@ The script links every skill directory into the target dir (creating it if neede
 ```sh
 # User-level
 mkdir -p ~/.claude/skills
-ln -s "$(pwd)/changelog" ~/.claude/skills/changelog
+ln -s "$(pwd)/review-changelog" ~/.claude/skills/review-changelog
 
 # Repository-level
 mkdir -p ~/path/to/VictoriaMetrics/.claude/skills
-ln -s "$(pwd)/changelog" ~/path/to/VictoriaMetrics/.claude/skills/changelog
+ln -s "$(pwd)/review-changelog" ~/path/to/VictoriaMetrics/.claude/skills/review-changelog
 ```
 
 Restart Claude Code (or start a new session) to pick up new skills.
