@@ -1,8 +1,6 @@
 ---
 name: changelog
 description: Review changelog entries or write a new one for a proposed change. Use when editing or reviewing docs/**/CHANGELOG*.md.
-paths:
-  - "docs/**/CHANGELOG*.md"
 ---
 
 ## Overview
