@@ -15,6 +15,7 @@ Files:
 Placement:
 - New entries go to the `tip` section (merged, not released). Touch released versions only to refine an entry or add a missing one.
 - Within a version: update notes first, then `SECURITY`, `FEATURE`, `BUGFIX` groups, with a blank line between groups and between update notes.
+- Add a new entry at the end of its group, and a new update note after the last one. Don't reorder existing entries.
 
 Entries:
 - Format: `* TYPE: <components or features>: <description>. See [#N](link). Thanks to @github_username for the contribution.`
