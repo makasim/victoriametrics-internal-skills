@@ -6,9 +6,17 @@ Claude Code skills used internally by the VictoriaMetrics team. Each top-level d
 
 ## Installation
 
+### Using `npx skills`
+
+```sh
+npx skills add https://github.com/makasim/victoriametrics-internal-skills --skill vm-changelog-review
+```
+
+### From a local clone
+
 Clone the repo and symlink the skills, so `git pull` keeps them up to date.
 
-### Using the script
+#### Using the script
 
 ```sh
 # All projects (user-level): ~/.claude/skills
@@ -20,7 +28,7 @@ Clone the repo and symlink the skills, so `git pull` keeps them up to date.
 
 The script links every skill directory into the target dir (creating it if needed), updates existing symlinks, and skips anything that already exists and isn't a symlink.
 
-### Manually
+#### Manually
 
 ```sh
 # User-level
